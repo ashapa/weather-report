@@ -7,6 +7,7 @@ body {
     font-family: Geneva, sans-serif;
     font-size: 120%;
     background: #222;
+    
     background-image: url("../assets/simon-berger-unsplash.jpeg");
 }
 
@@ -48,7 +49,6 @@ button, select {
     font-size: 105%;
 }
 
-#temperature {
-    margin: 0;
-    margin-bottom: 0.4em;
+#counter-display {
+    padding-bottom: 1em;
 }
