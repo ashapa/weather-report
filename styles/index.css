@@ -7,7 +7,7 @@ body {
     font-family: Geneva, sans-serif;
     font-size: 120%;
     background: #222;
-    background-image: url("../assets/simon-berger-unsplash.jpeg");
+    background-image: url('../assets/simon-berger-unsplash.jpeg');
 }
 
 #card {
@@ -26,7 +26,8 @@ body {
     justify-content: center;
 }
 
-button, select {
+button,
+select {
     margin: 0.5em;
     border-radius: 30px;
     border: none;
@@ -35,7 +36,6 @@ button, select {
     outline: none;
     background: #7c7c7c2b;
     color: white;
-    cursor: pointer;
 }
 
 #search-bar {
