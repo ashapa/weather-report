@@ -11,8 +11,8 @@
     <section id="card">
         <section id="search">
             <input type="text" id="search-bar" placeholder="Enter Location">
-            <button>Reset</button>
-            <select name="sky" id="sky">
+            <button id="reset-button">Reset</button>
+            <select name="sky-select" id="sky-select">
                 <option value="Sunny">Sunny</option>
                 <option value="Cloudy">Cloudy</option>
                 <option value="Rainy">Rainy</option>
@@ -20,17 +20,17 @@
             </select>
         </section>
             <section id="weather">
-            <h2 id="city">Weather in New York</h2> 
-            <h1 id="temperature">
-                <button id="decrement">-</button> 
-                51°
-                <button id="increment">+</button>
+            <h2 id="weather-display">Weather in <span id="city">Hometown</span></h2> 
+            <h1 id="counter-display">
+                <button id="counter-minus">-</button> 
+                <span id="temp"></span>
+                <button id="counter-plus">+</button>
             </h1>
             <img id="icon" src="" alt="">
             <section id="sky">Sky</section>
-            <section id="landscape">Cloudy Landscape</section>
+            <section id="landscape">Landscape</section>
         </section>
     </section>
-    <script src="scripts/index.js"></script>
+    <script src="src/index.js"></script>
 </body>
 </html>
